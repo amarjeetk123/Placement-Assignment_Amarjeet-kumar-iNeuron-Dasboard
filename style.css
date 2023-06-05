@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;1,100;1,500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, Montserrat;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-color: #6c64ff;
+  --heading-color: #120e43;
+  --black-color: #000000;
+  --primary-color: #233c7b;
+}
+
+.body {
+  background-color: #fbfeff;
+}
+
+.first {
+    width: 100%;
+    padding: 10px 0px 0px;
+  }
+  
+  .first-containet {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .first img {
+    width: 200px;
+  }
+  
+  .first input {
+    padding-left: 36px;
+    height: 40px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    border: 1px solid var(--primary-color);
+  }
+  .first input:focus {
+    outline: none;
+  }
+  
+  .first button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-left: 26px;
+    margin-top: 5px;
+  }
+  
+  .first::placeholder {
+    position: absolute;
+    margin-top: 5px;
+    font-size: 22px;
+    color: var(--primary-color);
+  }
+  
+  .first .transparent {
+    background-color: transparent;
+    color: var(--primary-color);
+    margin-left: 20px;
+  }
+  
+  .first .color {
+    background-color: var(--primary-color);
+    color: #ffffff;
+  }
+  .first .color:hover {
+    color: #ffffff;
+  }
+  
+  .first .input-box input {
+    width: 700px;
+    outline: none;
+  }
+  .first .input-box img {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -80px;
+  }
+  
+  .upper-input {
+    display: flex;
+  }
+  
+  /* CSS for pure hardwork sevtion  */
+  
+  .line-div {
+    display: flex;
+    justify-content: center;
+  }
+  .line-pure {
+    background: #f7a654;
+    width: 170px;
+    text-align: center;
+    height: 3px;
+  }
