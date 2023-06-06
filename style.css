@@ -128,4 +128,226 @@
     text-align: center;
     color: var(--primary-color);
   }
+
   
+  /* Hall of fame CSS  */
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.hall-of-fame {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-hall {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+}
+#left,
+#right {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper-hall i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper-hall i:first-child {
+  left: -22px;
+}
+.wrapper-hall i:last-child {
+  right: -22px;
+}
+.wrapper-hall .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px 0px;
+}
+
+.card .img img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 10px 0px;
+  color: var(--primary-color);
+}
+.carousel .card h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  width: 90%;
+  text-align: center;
+  font-weight: 400;
+  color: #454545;
+}
+.carousel .card span {
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 0px 15px;
+  color: #454545;
+}
+#left {
+  z-index: 1000;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+
+.third-main .heading {
+  margin-top: 50px;
+}
+.third-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.third-containt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 90%;
+}
+.third-containt img {
+  width: 230px;
+}
+.first3,
+.second3,
+.third3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third-containt h1 {
+  color: var(--primary-color);
+}
+.third-containt h2 {
+  color: #454545;
+}
+
+/* .container-fluid a img{
+    width: 200px;  
+} */
+
+.my-ul-class {
+  margin: 30px auto;
+}
+
+#carouselExampleCaptions img {
+  height: 80vh;
+}
+
+/* image-uppermost-css */
+.second2 {
+  display: flex;
+  background-color: #233c7b;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.second2 .second2-left {
+  width: 40%;
+  height: 600px;
+  /* background-color: #d400d4; */
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.second2 .second2-right {
+  width: 50%;
+  height: 600px;
+}
+
+.second2-left h1 {
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.color-line {
+  width: 300px;
+  height: 3px;
+  background-color: #f7a654;
+  margin: 10px 0px;
+}
+
+.second2-left h2 {
+  font-weight: 600;
+  font-size: 60px;
+  margin: 30px 0px;
+}
+
+.second2-left h3 {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 15px 0px;
+}
+
+.second2-right img {
+  border: 5px #233c7b;
+  height: 550px;
+  width: 100%;
+}
