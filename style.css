@@ -773,3 +773,176 @@ footer {
   margin: 0px 50px;
   padding: 80px 0px;
 }
+
+
+/* CSS for footer  */
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #233c7b;
+  width: 100%;
+  align-items: flex-start;
+  color: #ffffff;
+  padding: 50px 0px;
+}
+
+footer .first {
+  width: 33%;
+}
+
+footer .second {
+  width: 33%;
+}
+
+footer .third {
+  width: 20%;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer h1 {
+  font-size: 30px;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.fl-al {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.line1,
+.line2,
+.line3,
+.line {
+  background-color: #f7a654;
+  margin: 10px 0px;
+}
+
+.line2 {
+  height: 2px;
+  width: 300px;
+}
+
+.line1 {
+  height: 2px;
+  width: 80%;
+  margin: 10px 0px;
+}
+
+.line3 {
+  height: 2px;
+  width: 90%;
+
+  margin: 10px 0px;
+}
+
+footer .third h2 {
+  margin-top: 20px;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections .two {
+  margin-left: 50px;
+}
+
+.same9 h2 {
+  margin-top: 20px;
+}
+
+.our-product {
+  padding: 50px 0px 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.our-product img {
+  height: 100px;
+}
+
+.our-product .box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-product h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--primary-color);
+}
+
+.our-product h2 {
+  margin: 10px 0px;
+  font-size: 1.123rem;
+  line-height: 1.75rem;
+  color: #454545;
+  margin: 8px 0px;
+  text-align: center;
+  width: 80%;
+}
+
+.logo-bar {
+  margin-top: 50px;
+}
+
+.logo-bar img {
+  width: 200px;
+}
+
+
+
+/* .Eeigth-main h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--heading-color);
+    margin-top: 50px;
+} */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 10px;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+  color: #000000;
+}
+.linkdin {
+  margin: 20px 0px 10px;
+}
