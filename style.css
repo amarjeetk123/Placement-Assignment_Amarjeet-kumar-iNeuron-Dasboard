@@ -946,3 +946,14 @@ footer .third h2 {
 .linkdin {
   margin: 20px 0px 10px;
 }
+
+
+@media screen and (max-width: 1490px) {
+  .my-ul-class {
+    margin: 20px auto;
+  }
+  .nav-item .nav-link {
+    margin: 0px auto;
+    font-size: 20px;
+  }
+}
