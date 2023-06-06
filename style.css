@@ -502,3 +502,162 @@
   color: var(--heading-color);
   margin-top: 30px;
 }
+
+/* CSS for live program section  */
+.twelve {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.twelve h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: var(--heading-color);
+  align-items: center;
+  margin-top: 30px;
+}
+
+.twelve .institute-logo {
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.twelve img {
+  height: 200px;
+}
+
+.hackthon h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.heading {
+  width: 100%;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+.live-program {
+  margin-top: 100px;
+}
+.live-program .live-sub {
+  text-align: center;
+}
+
+.slider_container {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px 40px;
+}
+
+.same11 {
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  min-height: 450px;
+  box-shadow: 0px 10px 20px rgba(171, 171, 171, 0.25);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.same11:hover {
+  cursor: pointer;
+}
+
+.same11 h1 {
+  font-weight: 600;
+  margin-top: 35px;
+  color: rgb(35, 60, 123);
+  font-size: 25px;
+  height: 60px;
+}
+
+.same11 h2 {
+  font-weight: 400;
+  margin: 20px 0px;
+  color: var(--heading-color);
+  font-size: 22px;
+  text-align: left;
+}
+
+.same11 h3 {
+  font-weight: 500;
+  color: #000000;
+  font-size: 23px;
+}
+
+.course-btn {
+  height: 40px;
+  width: 80px;
+  background-color: var(--main-color);
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.containet-box2 img {
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.slider_container .last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.live-sub {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.view-more {
+  cursor: pointer;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.test h3 {
+  margin-top: 50px;
+}
+
+/* CSS for footer  */
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #233c7b;
+  width: 100%;
+  align-items: flex-start;
+  color: #ffffff;
+  padding: 50px 0px;
+}
+
+@media screen and (max-width: 1490px) {
+  /* .third-main{
+        background-color: red;
+    } */
+  .my-ul-class {
+    margin: 20px auto;
+  }
+
+  .nav-item .nav-link {
+    margin: 0px auto;
+    /* background-color: #23C4ED; */
+    font-size: 20px;
+  }
+}
